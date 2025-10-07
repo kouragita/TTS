@@ -17,7 +17,7 @@ catalogue==2.0.10
 certifi==2025.8.3
 cffi==2.0.0
 charset-normalizer==3.4.3
-click==8.3.0
+click==8.1.8
 cloudpathlib==0.22.0
 confection==0.1.5
 contourpy==1.2.1
@@ -43,6 +43,7 @@ gruut_lang_de==2.0.1
 gruut_lang_en==2.0.1
 gruut_lang_es==2.0.1
 gruut_lang_fr==2.0.2
+gTTS==2.5.4
 hangul-romanize==0.1.0
 hf-xet==1.1.10
 huggingface-hub==0.35.1
@@ -110,6 +111,7 @@ pypinyin==0.55.0
 pysbd==0.3.4
 python-crfsuite==0.9.11
 python-dateutil==2.9.0.post0
+pyttsx3==2.99
 pytz==2025.2
 PyYAML==6.0.3
 regex==2025.9.18
@@ -134,14 +136,15 @@ tensorboard==2.20.0
 tensorboard-data-server==0.7.2
 thinc==8.3.4
 threadpoolctl==3.6.0
-tokenizers==0.22.1
-torch==2.8.0
-torchaudio==2.8.0
+tokenizers==0.13.3
+torch==2.2.0+cpu
+torchaudio==2.2.0+cpu
+torchvision==0.17.0+cpu
 tqdm==4.67.1
 trainer==0.0.36
-transformers==4.56.2
+transformers==4.33.0
 triton==3.4.0
-TTS==0.22.0
+TTS==0.20.6
 typeguard==4.4.4
 typer==0.19.2
 typing-inspection==0.4.1
