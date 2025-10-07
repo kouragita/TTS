@@ -42,6 +42,9 @@ def load_fsspec(
         Object stored in path.
     """
     is_local = os.path.isdir(path) or os.path.isfile(path)
+    # Force weights_only=False to fix PyTorch 2.8 compatibility
+    kwargs['weights_only'] = False
+    
     if cache and not is_local:
         with fsspec.open(
             f"filecache::{path}",
